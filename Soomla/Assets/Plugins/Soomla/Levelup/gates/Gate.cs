@@ -132,6 +132,10 @@ namespace Soomla.Levelup {
 			return canOpenInner();
 		}
 
+		public void Reset() {
+			this.ForceOpen(false);
+		}
+
 		/// <summary>
 		/// Clones this <c>Gate</c> and gives it the given ID.
 		/// </summary>

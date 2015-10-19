@@ -220,6 +220,12 @@ namespace Soomla.Levelup {
 			Gate.ForceOpen(true);
 		}
 
+		public void Reset() {
+			if (Gate != null) {
+				Gate.Reset();
+			}
+		}
+
 		/// <summary>
 		/// Clones this <c>Mission</c> and gives it the given ID.
 		/// </summary>
